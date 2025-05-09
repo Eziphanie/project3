@@ -1,1 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body and container styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef8ff;  /* Light pink background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;  /* White background */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #ffb3b3;  /* Soft pink */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #ff80ab; /* Lighter pink on hover */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffb3b3;  /* Soft pink */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.footer p {
+    margin: 10px 0;
+}
